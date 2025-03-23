@@ -1,0 +1,22 @@
+{
+  "name": "background-color-picker",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ],
+  "icons": {
+    "16": "images/greva-16.png",
+    "32": "images/greva-32.png",
+    "48": "images/greva-48.png",
+    "128": "images/greva-128.png"
+  }
+}
